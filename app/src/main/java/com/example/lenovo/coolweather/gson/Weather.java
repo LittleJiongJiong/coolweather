@@ -1,5 +1,7 @@
 package com.example.lenovo.coolweather.gson;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -23,5 +25,6 @@ public class Weather {
     /**
      * 封装未来若干天的天气预报
      */
+    @SerializedName("daily_forecast")
     public List<ForeCast> foreCastList;
 }

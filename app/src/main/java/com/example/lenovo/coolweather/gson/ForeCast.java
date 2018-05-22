@@ -23,7 +23,7 @@ public class ForeCast {
     @SerializedName("cond")
     public More more;
 
-    private class Temperature {
+    public class Temperature {
 
         /**
          *  最高温度(摄氏度)
@@ -36,7 +36,7 @@ public class ForeCast {
         public String min;
     }
 
-    private class More {
+    public class More {
         /**
          * 白天天气描述
          */

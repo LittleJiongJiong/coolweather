@@ -20,7 +20,7 @@ public class Basic {
 
     public Update update;
 
-    private class Update {
+    public class Update {
         /**
          * 表示天气更新时间
          */

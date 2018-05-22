@@ -20,7 +20,7 @@ public class Now {
     @SerializedName("cond")
     public More more;
 
-    private class More {
+    public class More {
         /**
          * 天气描述
          */
